@@ -3,6 +3,8 @@ import './index.css';
 import styles from './style.js';
 
 import  Navbar from './components/Navbar.jsx';
+import Hero from './components/Hero.jsx';
+
 
 
 const App = () => {
@@ -16,7 +18,7 @@ const App = () => {
       {/* hero*/}
       <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        hero
+        <Hero/>
       </div>
       </div>
       {/*main body - Components */}
