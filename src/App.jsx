@@ -4,6 +4,7 @@ import styles from './style.js';
 
 import  Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
+import Stats from './components/stats.jsx'
 
 
 
@@ -24,7 +25,7 @@ const App = () => {
       {/*main body - Components */}
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-
+      <Stats/>
       </div>
     </div>
     </div>
